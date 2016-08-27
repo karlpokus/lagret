@@ -1,0 +1,27 @@
+{
+  "name": "lagret",
+  "version": "0.1.0",
+  "description": "Persistant db.json on the client",
+  "main": "lagret.js",
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karlpokus/lagret.git"
+  },
+  "keywords": [
+    "json",
+    "storage",
+    "client"
+  ],
+  "author": "Karl Pokus <karl.pokus@gmail.com> (https://github.com/karlpokus)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/karlpokus/lagret/issues"
+  },
+  "homepage": "https://github.com/karlpokus/lagret#readme",
+  "devDependencies": {
+    "tape": "^4.6.0"
+  }
+}
