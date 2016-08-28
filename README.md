@@ -27,11 +27,12 @@ var n = db.users.count();
 ```
 
 # TODOs
-- npm
-- continue testing
-- sort
-- optional cb
-- update by regex
+- [x] npm
+- [ ] continue testing
+- [ ] sort
+- [ ] find
+- [ ] optional cb
+- [ ] find/update by regex
 
 # Licence
 MIT
