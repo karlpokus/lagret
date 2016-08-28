@@ -16,7 +16,9 @@ var data = db.users.fetch();
 var added = db.users.add({name: 'Mike', age: 23});
 // remove one by passing an id. Pass array to remove many
 var removed = db.users.remove('ytGhgds67hsk');
-// update one by passing an id and an object with data. Pass array to update many. Pass only an object with data to update all records
+// update one by passing an id and an object with data
+// Pass array to update many
+// Pass only an object with data to update all records
 var updated = db.users.update('hvV3v&82nnd', {human: false});
 // erase all data
 db.users.drop();
@@ -24,11 +26,11 @@ db.users.drop();
 var n = db.users.count();
 ```
 
-TODOs
+# TODOs
 - npm
 - continue testing
-- sort?
-- optional cb?
+- sort
+- optional cb
 - update by regex
 
 # Licence
