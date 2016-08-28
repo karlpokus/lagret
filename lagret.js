@@ -99,6 +99,11 @@ if (typeof window === 'undefined') {
         },
         setItem: function(coll, data) {
           this.data[coll] = data;
+        },
+        removeItem: function(coll) {
+          if (this.data[coll]) {
+            delete this.data[coll];
+          }          
         }
       };
 }
